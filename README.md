@@ -1,9 +1,9 @@
 # Fluent Comman
-Fluent Command provides implementation of the command pattern discussed in best practices at [Google I/O event](https://www.youtube.com/watch?v=PDuhR18-EdM)
+Fluent Command provides implementation of the command pattern discussed in best practices at [Google I/O event](https://www.youtube.com/watch?v=PDuhR18-EdM). 
 
-You can send and execute conscise commands to be executed remotely.
+You can send and execute commands remotely. As the library name suggests, a fluent or method chaining style of programming is implemented. 
 
-Example 1:
+*Example 1: - commands sent using GWT EventBus, works on client and server*
 ```java
 package org.easylibs.gwt.command.examples.client;
 
